@@ -1,13 +1,12 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Master of Computer Science
+  uni: Seoul National University, HCIL
+  year: 2018.03 &mdash; 2020.02 (졸업예정)
+  remarks: 
+    - SNUVR 활동 (2018.09~2019.08)
+    
+- degree: Bachelor of Computer Science
+  uni: Seoul National University
+  year: 2014.03 &mdash; 2019.02
+  remarks: 
+    - 중앙동아리 쟈스민 회장 (2018.01~2018.07)

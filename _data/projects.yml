@@ -2,15 +2,50 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: 한글 OCR using TensorFlow
+  role: Developer
+  duration: 2016.09 &mdash; 2016.12
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: 사업자 등록증과 영수증 인식을 위한 Korean OCR Project (with SKPlanet)
+
+# 3D Edge Detection based Real Object Selection
+- project: 3D Edge Detection based Real Object Selection
+  role: Developer & 1st author
+  duration: 2017.09 &mdash; 2018.06
+  # url: "#"
+  description: Bachelor's degree paper 2018 한국정보과학회, 모바일 AR 상에서 터치로 실제 물체를 선택할 수 있도록 하기 위해 (scanning 등) edge 인식을 활용.
+  
+# Arphy: Phoho App in AR Hololens
+- project: Arphy: Phoho App in AR Hololens
+  role: Developer
+  duration: 2018.07 &mdash; Present
+  # url: "#"
+  description: 삼성전자 산학과제, Hololens AR 상에서 실제 물체에 사진을 배열하고, 저장할 수 있도록 하는 플랫폼.
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: PolySquare: 3D model similarity comparison in VR
+  role: Developer
+  duration: 2018.09 &mdash; 2018.12
+  # url: "#"
+  description: VR 3D model을 만들고, 비슷한 모델들을 검색하여 similarity metric 별로 비교할 수 있는 인터페이스.
+  
+# Springfield Community Outreach Group
+- project: Automatic 3D Tagging
+  role: Developer
+  duration: 2019.01 &mdash; Present
+  # url: "#"
+  description: VR 3D model을 만들고, 비슷한 모델들을 검색하여 similarity metric 별로 비교할 수 있는 인터페이스.
+  
+# Springfield Community Outreach Group
+- project: Tylenol: Stress Relieving VR Game
+  role: Developer
+  duration: 2018.09 &mdash; 2019.03
   # url: "#"
   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+# Springfield Community Outreach Group
+- project: Portrait Matting using DeepLab v.3
+  role: Developer
+  duration: 2019.07 &mdash; 2019.08
+  # url: "#"
+  description: 

@@ -1,51 +1,52 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: 한글 OCR using TensorFlow
+- project: Deep Automatic Portrait Matting
   role: Developer
-  duration: 2016.09 &mdash; 2016.12
+  duration: 2019.07 &mdash; 2019.08
   # url: "#"
-  description: 사업자 등록증과 영수증 인식을 위한 Korean OCR Project (with SKPlanet)
+  description: Automatic portrait matting using deep learning (use DeepLab v.3 as a backbone). 미루시스템즈 선거 명부기 사진 배경 제거 시스템 개발.
 
-# 3D Edge Detection based Real Object Selection
-- project: 3D Edge Detection based Real Object Selection
-  role: Developer & 1st author
-  duration: 2017.09 &mdash; 2018.06
-  # url: "#"
-  description: Bachelor's degree paper 2018 한국정보과학회, 모바일 AR 상에서 터치로 실제 물체를 선택할 수 있도록 하기 위해 (scanning 등) edge 인식을 활용.
-  
-# Arphy: Phoho App in AR Hololens
-- project: Arphy: Phoho App in AR Hololens
-  role: Developer
-  duration: 2018.07 &mdash; Present
-  # url: "#"
-  description: 삼성전자 산학과제, Hololens AR 상에서 실제 물체에 사진을 배열하고, 저장할 수 있도록 하는 플랫폼.
-
-# Springfield Community Outreach Group
-- project: PolySquare: 3D model similarity comparison in VR
-  role: Developer
-  duration: 2018.09 &mdash; 2018.12
-  # url: "#"
-  description: VR 3D model을 만들고, 비슷한 모델들을 검색하여 similarity metric 별로 비교할 수 있는 인터페이스.
-  
-# Springfield Community Outreach Group
 - project: Automatic 3D Tagging
   role: Developer
   duration: 2019.01 &mdash; Present
   # url: "#"
+  description: 유사한 3D model끼리 text annotation을 공유할 수 있도록 한 keyword 검색 인터페이스. feature extraction과 segmentation에 딥러닝 모델 활용.
+
+- project: PolySquare, 3D model similarity comparison in VR
+  role: Developer
+  duration: 2018.09 &mdash; 2018.12
+  # url: "#"
   description: VR 3D model을 만들고, 비슷한 모델들을 검색하여 similarity metric 별로 비교할 수 있는 인터페이스.
+
+# Arphy: Phoho App in AR Hololens
+- project: Arphy, Phoho App in AR Hololens
+  role: Developer
+  duration: 2018.07 &mdash; Present
+  # url: "#"
+  description: 삼성전자 산학과제, Hololens AR 상에서 실제 물체에 사진을 배열하고 저장할 수 있도록 하는 플랫폼.
+
+# 3D Edge Detection based Real Object Selection
+- project: 3D Edge Detection based Real Object Selection in AR
+  role: Developer & 1st author
+  duration: 2017.09 &mdash; 2018.06
+  url: "https://github.com/minz95/TangoEdgeSpanning"
+  description: Bachelor's degree paper 2018 한국정보과학회, 모바일 AR 상에서 터치로 실제 물체를 선택할 수 있도록 하기 위해 (scanning 등) edge 인식을 활용.
+
+- project: 한글 OCR using TensorFlow
+  role: Developer
+  duration: 2016.09 &mdash; 2016.12
+  url: "https://github.com/yeonwooKim/KoreanOCR"
+  description: 사업자 등록증과 영수증 인식을 위한 Korean OCR Project (with SKPlanet)  
   
-# Springfield Community Outreach Group
-- project: Tylenol: Stress Relieving VR Game
+- project: Tylenol, Stress Relieving VR Game
   role: Developer
   duration: 2018.09 &mdash; 2019.03
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  url: "https://github.com/Ofiun/tylenol"
+  description: Occulus VR Game, Break things in the office & get away from the boss
 
-# Springfield Community Outreach Group
-- project: Portrait Matting using DeepLab v.3
-  role: Developer
-  duration: 2019.07 &mdash; 2019.08
-  # url: "#"
-  description: 
+- project: PizzaDecorator, 2018 UIST SIC (Student Innovation Contest)
+  role: Developer & 2nd author
+  duration: 2018.07 &mdash; 2018.11
+  url: "https://pizzadecorator.github.io/"
+  description: 손을 사용하지 않고 로봇과 인터랙션하는 방법 연구. 얼굴 인식과 고개 움직임 인식, 아두이노를 사용하여 자동 소스 디스펜서 개발.

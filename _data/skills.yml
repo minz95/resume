@@ -1,12 +1,21 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Programming Language
+  description: C++, C, C#, Python, Java, JavaScript etc.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Deep Learning Framework
+  description: Pytorch, Tensorflow (beginner), Caffe (beginner), Unity ml-agent
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Computer Vision
+  description: OpenCV (C++/Python), Homography, Image Classification/Segmentation
+
+- skill: 3D Data Analysis
+  description: Trimesh (C++), pointcloud (ptl etc.) analysis, Three.js
+
+- skill: VR/AR Development
+  description: Unity Development (C#), Mobile AR (Vuforia AR, Google Tango-deprecated), Mobile VR (Gear VR), Microsofr Hololens, Oculus
+
+- skill: Web Framework
+  description: Angular (beginner)
+
+- skill: Others
+  description: Arduino, Windows C++, MongoDB, Flask

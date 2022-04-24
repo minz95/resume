@@ -11,9 +11,6 @@
 - skill: Database
   description: MySQL, MongoDB
 
-- skill: 3D Data Analysis
-  description: Trimesh (C++), pointcloud (ptl etc.) analysis, Three.js
-
 - skill: VR/AR Development
   description: Unity Development (C#), Mobile AR (Vuforia AR)
 

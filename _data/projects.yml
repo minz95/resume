@@ -11,17 +11,13 @@
   role: Developer
   duration: 2021.03 &mdash; 2021.08
   # url: "#"
-  description: 콘텐츠에서 주요 토픽을 추출해 서비스 카테고리 키워드에 할당. 
-  해당 콘텐츠를 작성한 유저가 관심있는 주제를 찾아 태그를 생성한다.
-  (LDA, word vector)
+  description: 콘텐츠에서 주요 토픽을 추출해 서비스 카테고리 키워드에 할당. 해당 콘텐츠를 작성한 유저가 관심있는 주제를 찾아 태그를 생성한다 (LDA, word vector)
 
 - project: Image Similarity Detection
   role: Developer
   duration: 2021.03 &mdash; 2021.06
   # url: "#"
-  description: 어뷰징 이미지의 변조에 대응하기 위해 등록된 어뷰징 이미지와 유사한 이미지를 판별하는 모델 개발 및 배포. 
-  어느 정도의 변조는 유사 이미지로 판별하지만, 정상 이미지를 어뷰징 이미지로 잘못 판별하는 일은 없어야 한다.
-  (siamese learning, tensorflow)
+  description: 어뷰징 이미지의 변조에 대응하기 위해 등록된 어뷰징 이미지와 유사한 이미지를 판별하는 모델 개발 및 배포. 일정 수준의 변조는 유사 이미지로 판별하지만, 정상 이미지를 어뷰징 이미지로 잘못 판별하는 일은 없어야 한다 (siamese learning, tensorflow)
 
 - project: Abuse Register Detection
   role: Developer
@@ -29,15 +25,17 @@
   # url: "#"
   description: 신규 가입자 중 어뷰저를 판단하는 모델 개발 (Catboost) 및 배포
 
+- project: IconGAN development in Keras
+  role: Developer
+  duration: 2020.05 &mdash; 2020.06
+  url: "https://github.com/minz95/keras-IconGAN"
+  description: IconGAN model keras 구현 (official implementation-pytorch)
+
 - project: PolySquare, a search engine for 3D models with tag propagation
   role: Developer
   duration: 2019.01 &mdash; 2019.10
   url: "https://dl.acm.org/doi/abs/10.1145/3377325.3377484"
-  description: 유사한 3D model끼리 text annotation을 공유할 수 있도록 한 keyword 검색 인터페이스.
-  3D model이 부분적으로 유사할 때도 유사하다고 판단. 
-  사용자 인터렉션으로 검색하고자 하는 3D model 의 segment 를 선택하여 검색 필터링 기능 제공.
-  feature extraction과 3D model segmentation에 딥러닝 모델 활용.
-  (pytorch, mongoDB, three.js)
+  description: 유사한 3D model끼리 text annotation을 공유할 수 있도록 한 keyword 검색 인터페이스. 3D model이 부분적으로 유사할 때도 유사하다고 판단. 사용자 인터렉션으로 검색하고자 하는 3D model 의 segment 를 선택하여 검색 필터링 기능 제공. feature extraction과 3D model segmentation에 딥러닝 모델 활용 (pytorch, mongoDB, three.js)
 
 - project: Deep Automatic Portrait Matting
   role: Developer

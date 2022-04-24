@@ -1,21 +1,21 @@
 # Skills
 - skill: Programming Language
-  description: C++, C, C#, Python, Java, JavaScript etc.
+  description: Java, Python, C++, JavaScript
 
 - skill: Deep Learning Framework
-  description: Pytorch, Tensorflow (beginner), Caffe (beginner), Unity ml-agent
+  description: Pytorch, Tensorflow
 
-- skill: Computer Vision
-  description: OpenCV (C++/Python), Homography, Image Classification/Segmentation
+- skill: Data Engineering
+  description: docker, kubernetes, kafka
+
+- skill: Database
+  description: MySQL, MongoDB
 
 - skill: 3D Data Analysis
   description: Trimesh (C++), pointcloud (ptl etc.) analysis, Three.js
 
 - skill: VR/AR Development
-  description: Unity Development (C#), Mobile AR (Vuforia AR, Google Tango-deprecated), Mobile VR (Gear VR), Microsofr Hololens, Oculus
-
-- skill: Web Framework
-  description: Angular (beginner)
+  description: Unity Development (C#), Mobile AR (Vuforia AR)
 
 - skill: Others
-  description: Arduino, Windows C++, MongoDB, Flask
+  description: Flask, FastAPI, NodeJS, Redis, ElasticSearch

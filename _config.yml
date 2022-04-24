@@ -14,7 +14,7 @@ resume_name:                    "Minji Kim"
 resume_title:                   "Interests"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "mjkim@hcil.snu.ac.kr"
+resume_contact_email:           "kimmj.95@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "010-9502-7257"
@@ -23,7 +23,7 @@ resume_contact_telephone:       "010-9502-7257"
 #resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Computer Vision & Machine Learning<br/>Big Data Analysis & Data Visualization<br/>3D Data Analysis & VR/AR</p>"
+resume_header_intro: "<p>MLOps & Machine Learning<br/>Big Data Analysis & Data Visualization<br/>3D Data Analysis & VR/AR</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -40,14 +40,14 @@ resume_section_experience:      true
 #resume_section_recognition:     false
 resume_section_links:           true
 #resume_section_associations:    false
-#resume_section_interests:       true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/minz95/resume"
   # resume_facebook_url:          "insert Facebook URL here"
-  #resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/minji-kim-18a292198/"
   # resume_instagram_url:         "insert your Instagram URL here"
   #resume_website_url:           "http://joelglovier.com"
   #resume_medium_url:            "https://medium.com/@jglovier"

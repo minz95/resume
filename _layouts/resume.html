@@ -68,6 +68,27 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_experience_naver %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Projects in Naver</h2>
+        </header>
+
+        {% for project in site.data.experience_naver %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Experience_naver -->
+      {% endif %}
+
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -215,9 +236,9 @@
       <!-- end Links -->
       {% endif %}
 
-      {% if site.resume_print_social_links %}
+      <!-- {% if site.resume_print_social_links %} -->
       <!-- begin Print Social Links -->
-      <section class="content-section print-only">
+      <!-- <section class="content-section print-only">
 
         <header class="section-header">
           <h2>Social Links</h2>
@@ -227,9 +248,9 @@
         {% include print-social-links.html %}
         </div>
 
-      </section>
+      </section> -->
       <!-- end Print Social Links -->
-      {% endif %}
+      <!-- {% endif %} -->
 
       <!-- <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>

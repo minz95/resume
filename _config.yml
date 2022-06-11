@@ -37,8 +37,8 @@ resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
 resume_section_experience:      true
-resume_section_experience_naver: true
-#resume_section_recognition:     false
+# resume_section_experience_naver: true
+resume_section_recognition:     false
 resume_section_links:           true
 #resume_section_associations:    false
 resume_section_interests:       true
@@ -50,7 +50,7 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/minji-kim-18a292198/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  #resume_website_url:           "http://joelglovier.com"
+  # resume_website_url:           "http://hcil.snu.ac.kr/people/minji-kim"
   #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 

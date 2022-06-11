@@ -69,7 +69,7 @@
       {% endif %}
 
       {% if site.resume_section_experience_naver %}
-      <!-- begin Experience -->
+      <!-- begin Experience_naver -->
       <section class="content-section">
 
         <header class="section-header">
@@ -165,11 +165,17 @@
         </header>
 
         {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{{ recognition.project }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ recognition.role }}  &bull; {{ recognition.duration }}</h4>
+          <p class="resume-item-copy">{{ recognition.description }}</p>
+        </div>
+        <!-- <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
           <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
+        </div> -->
         {% endfor %}
 
       </section>
@@ -216,46 +222,17 @@
       <!-- end Interests -->
       {% endif %}
 
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
+    <!-- <section>
 
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
+      <header class="section-header">
+        <h2>Experiences Detail</h2>
+      </header>
 
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
+      <div class="resume-item">
+      {% include experience-detail.html %}
+      </div>
 
-      </section>
-      <!-- end Links -->
-      {% endif %}
-
-      <!-- {% if site.resume_print_social_links %} -->
-      <!-- begin Print Social Links -->
-      <!-- <section class="content-section print-only">
-
-        <header class="section-header">
-          <h2>Social Links</h2>
-        </header>
-
-        <div class="resume-item">
-        {% include print-social-links.html %}
-        </div>
-
-      </section> -->
-      <!-- end Print Social Links -->
-      <!-- {% endif %} -->
-
-      <!-- <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer> -->
+    </section> -->
 
     </div>
 

@@ -29,14 +29,14 @@
   role: Developer
   duration: 2021.03 &mdash; 2021.06
   # url: "#"
-  description: 어뷰징 이미지의 변조에 대응하기 위해 등록된 어뷰징 이미지와 유사한 이미지를 판별하는 모델 개발 및 배포. 일정 수준의 변조는 유사 이미지로 판별하지만, 정상 이미지를 어뷰징 이미지로 잘못 판별하는 일은 없어야 함 (siamese learning)
+  description: 어뷰징 이미지의 변조에 대응하기 위해 등록된 어뷰징 이미지와 유사한 이미지를 판별하는 모델 개발 및 배포. 일정 수준의 변조는 유사 이미지로 판별하지만, 정상 이미지를 어뷰징 이미지로 잘못 판별하는 일은 없어야 함 (siamese learning) precision을 떨어뜨리지 않으면서 recall을 높이는 것이 목표. imgaug library를 사용해 기존 이미지와 매우 유사한 데이터 생성
   skill: tensorflow, FastAPI
 
 - project: Abuse Band Detection
   role: Developer
   duration: 2020.10 &mdash; 2021.01
   # url: "#"
-  description: 어뷰징 목적으로 생성되는 밴드를 검출. 밴드 이름과 설명글, 리더가 작성한 취신글을 데이터로 사용. (charCNN, wordRNN, catboost)
+  description: 어뷰징 목적으로 생성되는 밴드를 검출. 밴드 이름과 설명글, 리더가 작성한 취신글을 데이터로 사용 (charCNN, wordRNN, catboost)
   skill: tensorflow, Spring
 
 - project: Abuse Register Detection

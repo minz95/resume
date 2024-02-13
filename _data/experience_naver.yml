@@ -1,8 +1,26 @@
 # Experience in Naver
 
+- project: wiki 류 메인이미지 파싱 시스템 개발
+  role: Developer
+  duration: 2023.12 &mdash; 현재
+  description: wiki 류 웹 사이트 내 메인 이미지 판별 로직 구축
+  skill: spark, scala
+
+- project: 이미지 검색 일본 시스템 구축
+  role: Developer
+  duration: 2023.01 &mdash; 현재
+  description: 일본 이미지 검색 시스템 구축, 이미지 데이터 마이그레이션 진행 (hbase table), airflow, grafana 등 운영 툴 구축
+  skill: hadoop, spark, scala
+
+- project: 이미지 검색 정제 시스템 개발
+  role: Developer
+  duration: 2022.09 &mdash; 현재
+  description: 이미지 검색 시스템의 데이터 정제 시스템 개발
+  skill: hadoop, spark, scala
+
 - project: 신고 시스템 ML 로그 데이터 수집 및 시각화 툴 개발
   role: Developer
-  duration: 2022.03 &mdash; 현재
+  duration: 2022.03 &mdash; 2022.09
   # url: "#"
   description: 신고 시스템에서 사용하는 ML 모델 실험 데이터 수집 및 시각화 툴 개발 
   skill: Java Spring, React

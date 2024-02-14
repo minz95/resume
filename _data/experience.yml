@@ -1,10 +1,12 @@
 # Jobs
-- project: 이미지 검색 정제 시스템 개발
-  role: Software Engineer
+- company: Naver
+  department: Image Search
+  position: Software Engineer
   duration: 2022.09 &mdash; Now
-  summary: 이미지 검색 시스템의 데이터 정제 시스템 개발
+  summary: 이미지 검색 데이터 정제 시스템 구축
 
 - company: Naver
+  department: Data Dev
   position: Software Engineer
   duration: 2020.01 &mdash; 2022.09
   summary: Abuser Detection & 신고 시스템 구축

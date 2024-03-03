@@ -1,15 +1,15 @@
 # Skills
 - skill: Programming Language
-  description: Java, Python, JavaScript, Scala
+  description: Scala, Python, Java, JavaScript
 
 - skill: Deep Learning Framework
   description: Pytorch, Tensorflow
 
 - skill: Data Engineering
-  description: docker, kubernetes, kafka, hadoop, spark
+  description: Docker, Kubernetes, Hadoop, Spark, Kafka
 
 - skill: Database
-  description: MySQL, MongoDB
+  description: MySQL, HBase
 
 - skill: VR/AR Development
   description: Unity Development (C#), Mobile AR
